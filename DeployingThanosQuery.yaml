@@ -57,6 +57,5 @@ spec:
     name: http
   selector:
     app: thanos-querier
-  type: LoadBalancer
-  loadBalancerIP: 35.186.220.147
+
 

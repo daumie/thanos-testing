@@ -104,6 +104,4 @@ spec:
       name: http
   selector:
     app: thanos-ruler
-  type: LoadBalancer
-  loadBalancerIP: 35.186.220.147
 

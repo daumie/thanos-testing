@@ -15,8 +15,7 @@ spec:
     - name: prometheus 
       port: 8080
       targetPort: prometheus
-  type: LoadBalancer
-  loadBalancerIP: 35.186.220.147
+  
 ---
 apiVersion: v1
 kind: Service
@@ -35,8 +34,7 @@ spec:
     - name: prometheus 
       port: 8080
       targetPort: prometheus
-  type: LoadBalancer
-  loadBalancerIP: 35.186.220.147
+  
 ---
 apiVersion: v1
 kind: Service
@@ -55,8 +53,7 @@ spec:
     - name: prometheus 
       port: 8080
       targetPort: prometheus
-  type: LoadBalancer
-  loadBalancerIP: 35.186.220.147
+  
 ---
 #This service creates a srv record for querier to find about store-api's
 apiVersion: v1
