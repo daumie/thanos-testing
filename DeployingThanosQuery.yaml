@@ -57,5 +57,6 @@ spec:
     name: http
   selector:
     app: thanos-querier
+  type: LoadBalancer
 
 

@@ -83,5 +83,6 @@ spec:
     targetPort: 3000
   selector:
     k8s-app: grafana
+  type: LoadBalancer
 
 
